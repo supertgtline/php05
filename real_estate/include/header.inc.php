@@ -48,13 +48,8 @@
                 </li>
                 <li><a href="#">Forum</a></li>
                 <li><a href="#">Recent</a></li>
-                <li><a href="#">Contact</a>
-                    <ul>
-                        <li><a href="#">Demon Warlock</a></li>
-                        <li><a href="#">Members</a></li>
-                        <li><a href="#">Admin</a></li>
-                        <li><a href="#">Technical</a></li>
-                    </ul></li>
+                <li><a href="contact.php">Contact</a>
+
             </ul>
         </div><!--End navBar-->
     </div><!--End Hear-->

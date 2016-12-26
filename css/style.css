@@ -368,6 +368,39 @@ div.metadata a{
 	margin: 0px 0px 10px 0px;
 	
 }
+/* Contact Form */
+#feedback{
+	margin: 40px 0px;
+	font-size: 14px;
+	width: 500px;
+}
+#feedback legend{
+	font-weight: bold;
+	font-size: 20px;
+}
+#feedback input{
+	display: block;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #828183;
+	background: white;
+}
+#feedback textarea{
+	display: block;
+	width: 350px;
+	height: 250px;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+#feedback #submit{
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bold;
+
+}
+#feedback #submit:hover{
+	background-color: blue;
+	color: white;
+}
 /*Footer*/
 #footer{
 	height: 41px;

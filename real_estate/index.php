@@ -1,6 +1,7 @@
 
 <?php include("include/header.inc.php");?>
 <?php include("include/siderbar.php");?>
+<?php include ("include/random_images.inc.php");?>
 		<div id="primary">
 			<div id="welcome">
 				<img src="../img/welcome.jpg" alt="welcome">
@@ -29,7 +30,7 @@ Hai tuổi này kết hôn với nhau khá tốt, Ví kết hôn với nhau sẽ
 				</div><!--End post-item-->
 				<div class="post-item">
 					<h1><span>HOUSE </span>02</h1>
-					<img src="../img/post-img-1.png">
+					<img src="<?php echo"$selectedImage" ?>">
 					<p>
 						- Nam tuổi Canh Ngọ kết hôn với nữ tuổi Đinh Sửu (Nam hơn Nữ 7 tuổi): 
 Hai tuổi này kết hôn với nhau khá tốt, Ví kết hôn với nhau sẽ gặp số Nhất Phú Quý. Đây là số nếu có phước thì sẽ hưởng giàu sang, nếu thiếu may mắn thì cũng có cuộc sống khá giả. Thêm vào đó Tính tình hai vợ chồng cũng tương đối hòa hợp, sống chung với nhau sẽ có cuộc sống hạnh phúc và giàu sang.
