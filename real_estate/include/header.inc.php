@@ -1,8 +1,9 @@
+<?php include 'title.inc.php';?>
 <!doctype html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Real Estate</title>
+    <title>Real Estate <?php echo '{$title}';?></title>
     <link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -26,7 +27,7 @@
         <div id="navBar">
             <?php $currentpage = basename($_SERVER["SCRIPT_NAME"]);?>
             <ul class="mainNar">
-                <li><a href="index.html"<?php if($currentpage =='index.php'){echo 'id="here"';}?>>Home page</a></li>
+                <li><a href="index1.html"<?php if($currentpage =='index1.php'){echo 'id="here"';}?>>Home page</a></li>
                 <li><a href="Tutorials.php">Tutorial</a></li>
                 <li><a href="css.php">Css &raquo;</a>
                     <ul>

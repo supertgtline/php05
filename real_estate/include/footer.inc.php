@@ -1,7 +1,7 @@
 </div>
 <div id="footer">
     <div id="footer-left">
-        <p class="copyright">&copy;2016 masco.com.vn</p>
+        <p class="copyright">&copy;2005 - <?php  echo date('Y')?> masco.com.vn</p>
         <p>Designed by: Truong Giang Thao</p>
     </div><!--End left-->
     <div id="footerNav">
