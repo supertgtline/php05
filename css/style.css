@@ -143,6 +143,10 @@ a img{
 	padding-left: 0px;
 	padding-bottom: 0px;
 }
+#header div#navBar ul.mainNar li a#here{
+	color: #007eff;
+}
+/*  header */
 #header div#navBar {
 	height: 33px; 
 	background: #c23903;
@@ -209,7 +213,7 @@ a img{
 	padding-left: 5px;
 }
 in#search-field {
-	width: 120 px;
+	width: 120px;
 	margin: 5px 0px;
 }
 .button{
@@ -282,7 +286,7 @@ in#search-field {
 }
 /*PRIMARY*/
 #primary #welcome{
-	height: 110 px;
+	height: 110px;
 	padding-bottom: 10px;
 	margin: 0px 5px;
 	border-bottom: 1px dotted #bfb8b2;
