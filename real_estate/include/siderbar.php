@@ -12,10 +12,10 @@
         <div id="featured">
             <h1>Feature of the week</h1>
             <ul>
-                <li>Loren ipsum dolar sit met, ipsum dolor sit a met</li>
-                <li>Loren ipsum dolar sit met, ipsum dolor sit a met</li>
-                <li>Loren ipsum dolar sit met, ipsum dolor sit a met</li>
-                <li>Loren ipsum dolar sit met, ipsum dolor sit a met</li>
+                <li>AAAAAAAAAAAAAAAAAAAAAA</li>
+                <li>AAAAAAAAAAAAAAAAAAAAAAt</li>
+                <li>AAAAAAAAAAAAAAAAAAAAAA</li>
+                <li>AAAAAAAAAAAAAAAAAAAAAAt</li>
             </ul>
         </div><!--End featured-->
         <div id="news">
