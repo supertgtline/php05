@@ -13,7 +13,7 @@ function encrypt_password($password)
     return $new_password;
 
 }
-function check_empty()
+function check_empty($check)
 {
     if (empty($check)){
         return true;
@@ -38,13 +38,13 @@ function check_username($username){
     include 'connect.php';
     $sql ="SELECT username FROM users WHERE username ='$username'";
     $check = $conn->query($sql);
-    if($check>num_rows){
+    if($check->num_rows){
         return true;
     } else{
         return false;
     }
 }
-$first_name = $_REQUEST["first_name"];
+$first_name= $_REQUEST["first_name"];
 if(check_empty($first_name)){
     echo "Please insert first name";
     exit();
