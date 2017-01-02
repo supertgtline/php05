@@ -1,0 +1,8 @@
+
+.clear{
+    clear: both;
+}
+header div.register{
+    float: right;
+    display: block;
+}
