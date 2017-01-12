@@ -1,2 +1,2 @@
 # php05
-Dep hon thang kia
+Training PHP

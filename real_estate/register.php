@@ -106,6 +106,7 @@
                                  <button type="submit" name = "register" class="btn btn-primary btn-lg">Register</button>
                             </fieldset>
                         </form>
+                        <a href="register.php"> Register here</a>
                     </div>
                 </div>
             </div>
@@ -114,7 +115,7 @@
     <!-- code PHP -->
     <script type="text/javascript">
         $(document).ready(function(){
-            $('#birthday').datepicker({ format: 'dd/mm/yyyy' });
+            $('#birthday').datepicker({ format: 'mm/dd/yyyy' });
         });
     </script>
 </body>

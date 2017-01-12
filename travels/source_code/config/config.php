@@ -1,14 +1,9 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname   = "travels";
+/** setting **/
+define('BASEURL' , 'http://training.dev/php05/travels/source_code/');
+define('BASEPATH', dirname(__FILE__) . '/');
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-mysqli_set_charset($conn,"utf8");
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-?>
+/** kết nối MySQL **/
+$db = mysql_connect('localhost', 'root', '') or die('Could not connect to Server');
+mysql_select_db('shop_travels') or die('Could not connect to Database');
+mysql_set_charset('utf-8');

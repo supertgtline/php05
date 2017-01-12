@@ -1,7 +1,7 @@
 <?php 
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "none";
 $dbname   = "real_estate";
 
 // Create connection
